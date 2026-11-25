@@ -1,0 +1,25 @@
+/* Lato (SIL Open Font License 1.1 — see assets/fonts/OFL-Lato.txt), bundled
+   so the calculators fetch nothing from outside. These are the weights the
+   Bootswatch Flatly theme (assets/bootstrap.css) uses. Dash loads every .css
+   in assets/ automatically. */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/Lato-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('fonts/Lato-Bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('fonts/Lato-Italic.ttf') format('truetype');
+}

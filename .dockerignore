@@ -1,0 +1,7 @@
+# Send Docker only what the image is built from (the Dockerfile copies these
+# by name); everything else in the folder stays out of the build.
+*
+!requirements.txt
+!futures.py
+!options.py
+!assets/

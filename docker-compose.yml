@@ -1,0 +1,22 @@
+services:
+  futures:
+    build: .
+    container_name: futures_calculator
+    ports:
+      - "127.0.0.1:8050:8050"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PORT_FUTURES=8050
+    command: python -u futures.py
+    restart: unless-stopped
+
+  options:
+    build: .
+    container_name: options_calculator
+    ports:
+      - "127.0.0.1:8051:8051"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PORT_OPTIONS=8051
+    command: python -u options.py
+    restart: unless-stopped

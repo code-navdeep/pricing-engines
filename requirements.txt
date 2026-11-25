@@ -1,0 +1,17 @@
+# Exact versions the calculators were tested with (on Python 3.13). Each also
+# installs on Python 3.11, the version in the Docker image; the newer numpy 2.5
+# and scipy 1.18 would not (they need Python 3.12 or later).
+
+# Web Framework & Dashboards
+dash==4.5.1
+dash-bootstrap-components==2.0.4
+plotly==7.2.0
+
+# Scientific Computing
+numpy==2.4.6
+pandas==3.1.1
+scipy==1.17.1
+
+# HTTP Server
+flask==3.1.3
+werkzeug==3.1.9
